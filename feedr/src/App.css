@@ -1,0 +1,415 @@
+/* GLOBALS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900');
+
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: roboto;
+}
+
+.button1{
+  background: #fff;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 15px 50px;
+  background: #ff9a9e;
+  border: 4px solid #fff;
+  font-size: 12pt;
+  font-family: Roboto;
+  font-weight: 300;
+  width: 290px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  right:10px;
+  z-index:9999444499;
+}
+
+.buttonContainer{
+  width:100%;
+  height:70px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.restCardButtonContainer{
+  width:100%;
+  height:60px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.containedButton{
+  height: 60px;
+  width: 60px;
+  margin: 0px 10px;
+  border-radius: 50%;
+  border: 0px;
+  box-shadow: 1px 1px 20px -5px #999;
+}
+
+.containedButtonImg{
+  height: 30px;
+  margin: 2px;
+}
+
+.button2{
+  background: #fff;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 15px 50px;
+  background: #ff9a9e;
+  border: 4px solid #fff;
+  font-size: 12pt;
+  font-family: Roboto;
+  font-weight: 300;
+  width: 290px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  right: 10px;
+}
+
+/* HEADBAR CLASSES */
+
+.headbarContainer{
+  background-image: linear-gradient(to bottom right, #5caceb, #1f8ee2);
+  width: 100vw;
+  height: 60px;
+  box-shadow: 1px 1px 10px -3px #999999;
+  text-align: center;
+}
+
+.headbarLogo{
+  height: 50px;
+  padding: 4px;
+}
+
+.headbarMenu{
+  height: 35px;
+  position: absolute;
+  top: 11px;
+  right: 15px;
+}
+
+
+
+/* CARD CLASSES */
+
+.cardContainer{
+  background-color: white;
+  position: absolute;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 30px -1px rgba(0,0,0,.15);
+  text-align: center;
+  height: 450px;
+  width: 270px;
+  overflow-x: hidden;
+}
+
+.restCardContainer{
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 450px;
+  width: 270px;
+}
+
+.restCardDisplayNone{
+  display: none;
+}
+
+.restProfileContainer{
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 450px;
+  width: 270px;
+  text-align: center;
+}
+
+.restProfileDisplayNone{
+  display: none;
+}
+
+.cardTitle{
+  width: 100%;
+  font-size: 12pt;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.homecardTitle{
+  font-weight: 400;
+  font-family: "Damion";
+  text-transform: none;
+  font-size: 64px;
+  text-align: center;
+}
+
+.cardSubtitle{
+  width: 100%;
+  font-size: 18pt;
+  font-weight: 300;
+  color: #444444;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.homeCardSubtitle{
+  text-align: center;
+}
+
+.cardImgContainer{
+  height: 300px;
+  width: 310px;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardImg{
+  min-width: 345px;
+  max-height: 300px;
+  margin-top: -40px;
+  margin-left: -30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0px;
+  object-fit: cover;
+}
+
+.restcardImgContainer{
+  height: 170px;
+  width: 310px;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.restcardImg{
+  min-width: 345px;
+  max-height: 170px;
+  margin-top: -40px;
+  margin-left: -30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0px;
+  object-fit: cover;
+}
+
+.profCardImg{
+  width: 100%;
+  box-shadow: 0px 0px 30px -5px rgba(0,0,0,.15);
+}
+
+.profImgContainer{
+  height: 300px;
+  width: 310px;
+  overflow: hidden;
+  margin-left: -20px;
+}
+
+.profcardTitle{
+  font-family: "Damion";
+  font-size: 32px;
+  text-transform: none;
+  margin: 10px auto;
+}
+.restProfileImg{
+  width: 355px;
+  margin-left: -20px;
+  margin-top: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0px;
+}
+
+.ourChoice{
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #666;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.yourChoice{
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-align: left;
+  color: #666;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.restProfileDescription{
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.address{
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+
+
+.back-circle{
+  position: fixed;
+  width: 1000px;
+  height: 1000px;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: -320px;
+  bottom: -590px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.15);
+  z-index: -9999999;
+
+}
+
+.full-container{
+  width: 375px;
+  height: 667px;
+  overflow: hidden;
+  display: block;
+  position: fixed;
+}
+
+.fakeCardBack{
+  width: 275px;
+  height: 97px;
+  overflow: hidden;
+  display: block;
+  position: fixed;
+  background: rgba(255,255,255,.5);
+  z-index: -99;
+  margin-top: 440px;
+  margin-left: 45px;
+  border-radius: 10px;
+  webkit-filter: blur(3px);
+}
+
+.location{
+  border: none;
+  border-bottom: 3px solid #ff9a9e;
+  padding-bottom: 5px;
+  border-radius: 0;
+  font-weight: 300;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.rest-profile-container{
+  position: absolute;
+  height: 1000px;
+}
+
+.restInfoTable{
+  margin-top: -25px;
+  text-align: left;
+}
+
+td{
+  padding: 4px 15px;
+  vertical-align: top;
+}
+
+.restInfoTableHeader{
+  font-weight: bold;
+}
+
+/* HOMECARD CLASSES */
+
+
+.sk-cube-grid {
+  width: 70px;
+  height: 70px;
+  margin: 120px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #ff9a9e;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
